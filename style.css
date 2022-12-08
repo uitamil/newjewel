@@ -1547,6 +1547,26 @@ video.VideoMain {
 .testi-sec {
     display: none;
 }
+.testi-mob {
+    display: block;
+    padding: 10px;
+    height: 500px;
+}
+.carousel-indicators {
+    bottom: -45px;
+    left: 60%;
+    width: 26%;
+}
+.car-rig-1 {
+    left: auto;
+    right: 30% !important;
+}
+testi-mob .col-md-12 img{
+margin-bottom:15px;
+}
+.carousel-inner>.item {
+    height: 320px;
+}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 600px){
