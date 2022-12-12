@@ -9,6 +9,115 @@ body {
   /* background:url(images/fullbg.png) no-repeat; */
   
 }
+/********top add to cart ***********/
+.nt-r2s3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.nt-r2s3 {
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+.nt-r2s3 i.fa-solid.fa-bag-shopping {
+    background: #fff;
+    padding-right: 0px;
+    font-size: 20px;
+    color: #8c1f48;
+    border: 1px solid #8c1f48;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 5px 8px;
+}
+/***********************************/
+.whole_trend {
+    background: #f6f6f6;
+    border-radius: 46px;
+	    position: relative;
+		    border: 1px solid #f6f6f6;
+			    height: 462px;
+}
+.nt-r1-c2 {
+   /* background: #fff; */
+    padding: 5px 20px;
+    text-align: center;
+    margin: 12px;
+    border-radius: 46px;
+}
+.nt-r1s1 {
+    width: 100%;
+}
+.nt-r2s2 a.view_det {
+    background: #fff;
+    border: 1px solid #8C1F48;
+    border-radius: 18px;
+    color: #8C1F48;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.nt-r1s1 h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A4A4A4;
+}
+.nt-r1s1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #8C1F48;
+    padding: 0;
+    margin: 0;
+}
+.nt-r1-c11 h5 b {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #242424;
+}
+/* .nt-r2s2 { */
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* top: 50%; */
+    /* transform: translate(30%, 17%); */
+/* } */
+.nt-r2s2 a {
+    background: #8C1F48;
+    border-radius: 18px;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+i.fa-solid.fa-bag-shopping {
+    padding-right: 5px;
+}
+.whole_trend:hover .nt-r2s2 {
+	display: block;
+}
+.nt-r2s2 {
+    display: none;
+    padding: 0px 7px;
+	    text-align: center;
+}
+
+
+
+
+
+
+
 .info_info ul li a:hover{
 	text-decoration:none;
 	color:#FAB400;
@@ -219,6 +328,7 @@ section.newarrivals {
 	text-align:center;
 
 }
+
 .img_jewl img {
     width: 250px;
 }
@@ -645,7 +755,7 @@ color: #fff;
 .nt-in{
     text-align: center;
     border-radius: 46px;
-    padding: 20px 0;
+    padding: 20px 0px 0px 0px;
     margin: 10px 0;
     background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0) 0%, #F5F5F5 100%);
 }
@@ -1196,6 +1306,9 @@ color: #8C1F48;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
+	.nt-in img {
+    width: 150px;
+}
     .banner1-blw .row{
         display: flex;
     }
@@ -1388,6 +1501,39 @@ color: #8C1F48;
 /*newtrends and now trending tab*/
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
+	.oq-sec h2 {
+    font-family: 'Trajan Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+	}
+	.jwl-2 h3 {
+    font-size: 25px;
+    line-height: 1.5;
+	}
+	.jwl-2 h4 {
+    font-size: 30px;
+    line-height: 1.5;
+	}
+	.jwl-2 h4 b::after {
+    width: 175px;
+}
+
+.qu-blw .col-md-2 {
+    width: 50%;
+    float: left;
+}
+	.qu-in h4{
+		font-size: 20px;
+	    line-height: 1.5;
+	}
+	.in-im {
+    height: 60px;
+}
+.arr_prt .col-md-6 {
+    width: 45%;
+    float: left;
+}
 	.slider_sec.mobile_prt{
 		display:block;
 	}
@@ -1405,13 +1551,20 @@ left:0px;
 z-index:99;
 }
 .img_jewl img {
-    width: 200px;
+    width: 130px;
+}
+.arr_prt p {
+    font-size: 20px;
+}
+.arr_prt a {
+    font-size: 15px;
 }
 .jewel_cnt {
     bottom: 0px;
     position: unset;
     top: 0px;
     left: 0px;
+	    padding-top: 20px;
 }
 .arr_prt {
     height: auto;
@@ -1481,18 +1634,18 @@ video.VideoMain {
     text-align: center;
     border-radius: 0px;
     padding: 30px 0 35px 0px;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
 }
-.qu-in {
-    border-bottom: 1px solid #000;
-}
+/* .qu-in { */
+    /* border-bottom: 1px solid #000; */
+/* } */
 .qua_img {
     width: 100%;
     object-fit: cover;
     height: auto;
 }
 .col-md-7.spl-e img {
-    width: 250px;
+    width: 200px;
 }
 .jwl-2 {
     text-align: center;
@@ -1516,13 +1669,15 @@ video.VideoMain {
 .banner1-blw {
     text-align: center;
     margin: 0 auto;
+	    display: none;
 }
 .im-abg {
     width: 70px;
 }
 .nt-in img {
-    width: 250px;
+    width: 170px;
 }
+
 /* #collectionspro .col-md-2 { */
     /* width: 33.33%; */
     /* float: left; */
