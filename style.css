@@ -113,11 +113,16 @@ i.fa-solid.fa-bag-shopping {
 }
 
 
+.arr_prt:hover{
+   box-shadow: 0px 0px 2px 2px rgb(30 30 28 / 21%);
+}
 
-
-
-
-
+.whole_trend:hover{
+	box-shadow: 0px 0px 2px 2px rgb(30 30 28 / 21%);
+}
+.qu-in:hover{
+	box-shadow: 0px 0px 2px 2px rgb(30 30 28 / 21%);
+}
 .info_info ul li a:hover{
 	text-decoration:none;
 	color:#FAB400;
@@ -641,6 +646,7 @@ text-decoration: none;
     text-align: center;
 border-radius: 32px;
 padding: 30px 0 35px 0px; 
+    margin: 10px 0px;
 }
 .im-abg{
     width: 50%;
